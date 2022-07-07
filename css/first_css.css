@@ -1,5 +1,10 @@
-h1 {
-    color: rgb(166, 223, 66);
-    font-family: Arial;
-    font-size: large;
-}
+    h1 {
+        color: rgb(166, 223, 66);
+        font-family: Arial;
+        font-size: large;
+    }
+    
+    p {
+        color: crimson;
+        font-family: Helvetica;
+    }
