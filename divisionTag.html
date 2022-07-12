@@ -8,7 +8,7 @@
     <style>
         div {
             width: 100%;
-            height: 400px;
+            height: 100px;
             /*display: inline-block;*/
             float: left;
             text-align: center;
@@ -18,12 +18,13 @@
     </style>
 </head>
 
-<body>
+<body dir="rtl">
     <div style="background-color:red;">
         header
     </div>
-    <div style="background-color:blue;">
-        content
+    <div style="background-color:blue; height:400px;">
+        <div style="width:20%;height:100%">sidebar</div>
+        <div style="width:80%;height:100%">content</div>
     </div>
     <div style="background-color:khaki;">
         footer
