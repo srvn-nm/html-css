@@ -8,10 +8,15 @@
             .box{
                 width: 200px;
                 height: 200px;
-                border: 2px solid red;
+                border: 6px solid red;
                 /*display: none; completely deleted but do not use it in seo.*/ 
                 /*visibility: hidden; the space is reserved but we can not see it.*/
-                
+                opacity: 0;/*a number between 0-1*/
+                transition: all ease 4s;
+            }
+            .box:hover{
+                background-color: black;
+                opacity: 1;
             }
         </style>
     </head>
@@ -19,5 +24,8 @@
     <div class="box">
 
     </div>
+    <p>
+        lorem ipsum dolor sit am
+    </p>
     </body>
 </html>
